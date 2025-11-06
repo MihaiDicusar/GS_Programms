@@ -5,8 +5,8 @@
             "name": "STLink@pyOCD (launch)",
             "type": "gdbtarget",
             "request": "launch",
-            "cwd": "${workspaceFolder}/Programs\\TaschenrechnerRPN",
-            "program": "out\\TaschenrechnerRPN\\ITSboard\\Debug\\TaschenrechnerRPN.axf",
+            "cwd": "${workspaceFolder}/Programs/TaschenrechnerRPN",
+            "program": "out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf",
             "gdb": "arm-none-eabi-gdb",
             "preLaunchTask": "CMSIS Load",
             "initCommands": [
@@ -43,8 +43,8 @@
             "name": "STLink@pyOCD (attach)",
             "type": "gdbtarget",
             "request": "attach",
-            "cwd": "${workspaceFolder}/Programs\\TaschenrechnerRPN",
-            "program": "out\\TaschenrechnerRPN\\ITSboard\\Debug\\TaschenrechnerRPN.axf",
+            "cwd": "${workspaceFolder}/Programs/TaschenrechnerRPN",
+            "program": "out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf",
             "gdb": "arm-none-eabi-gdb",
             "initCommands": [
                 ""
