@@ -112,7 +112,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake --regenerate-during-build -S/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard -B/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/1
+  command = /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake --regenerate-during-build -S/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard -B/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1
   description = Re-running CMake...
   generator = 1
 

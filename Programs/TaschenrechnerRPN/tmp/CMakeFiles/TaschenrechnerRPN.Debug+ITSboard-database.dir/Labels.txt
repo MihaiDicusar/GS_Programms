@@ -1,11 +1,11 @@
 # Target labels
  TaschenrechnerRPN.Debug+ITSboard
 # Source files and their labels
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-database
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-database.rule
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database.rule
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure.rule
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch.rule
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update.rule
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download.rule
-/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir.rule
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-database
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-database.rule
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database.rule
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure.rule
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch.rule
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update.rule
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download.rule
+/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir.rule

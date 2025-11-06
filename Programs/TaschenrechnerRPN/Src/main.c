@@ -22,7 +22,7 @@
 #include "error.h"
 #include "token.h"
 
-// test test test
+// test neu 
 int main(void) {
 	initITSboard();    // Initialisierung des ITS Boards
 	initDisplay();

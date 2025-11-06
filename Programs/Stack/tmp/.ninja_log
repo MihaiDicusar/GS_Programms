@@ -1,0 +1,15 @@
+# ninja log v6
+449	1879	1762426560319986614	/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-configure	9fceaad3b2625600
+449	1879	1762426560319986614	Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-configure	9fceaad3b2625600
+342	449	1762426558889936590	/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-patch	49400dbcaa57c368
+342	449	1762426558889936590	Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-patch	49400dbcaa57c368
+116	226	1762426558666844248	Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-download	342e1a037305712f
+226	342	1762426558782851083	/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-update	97b7ac0320782b8f
+1879	2074	1762426560320841775	/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-database	f0c2e35cd18a9efd
+116	226	1762426558666844248	/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-download	342e1a037305712f
+1879	2074	1762426560320841775	Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-database	f0c2e35cd18a9efd
+226	342	1762426558782851083	Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-update	97b7ac0320782b8f
+1	116	1762426558556309627	/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-mkdir	74093614328871b6
+1	116	1762426558556309627	Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-mkdir	74093614328871b6
+1	181	1762426574049797716	Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-database	f0c2e35cd18a9efd
+1	181	1762426574049797716	/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-database	f0c2e35cd18a9efd

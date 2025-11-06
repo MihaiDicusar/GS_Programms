@@ -34,7 +34,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/
+cmake_ninja_workdir = /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/
 
 #############################################
 # Utility command for database
@@ -45,13 +45,13 @@ build database: phony TaschenrechnerRPN.Debug+ITSboard-database
 #############################################
 # Utility command for TaschenrechnerRPN.Debug+ITSboard
 
-build TaschenrechnerRPN.Debug+ITSboard: phony CMakeFiles/TaschenrechnerRPN.Debug+ITSboard CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-done TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard-database TaschenrechnerRPN.Debug+ITSboard-executes
+build TaschenrechnerRPN.Debug+ITSboard: phony CMakeFiles/TaschenrechnerRPN.Debug+ITSboard CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-done TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard-database TaschenrechnerRPN.Debug+ITSboard-executes
 
 
 #############################################
 # Utility command for TaschenrechnerRPN.Debug+ITSboard-build
 
-build TaschenrechnerRPN.Debug+ITSboard-build: phony CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir TaschenrechnerRPN.Debug+ITSboard-configure
+build TaschenrechnerRPN.Debug+ITSboard-build: phony CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir TaschenrechnerRPN.Debug+ITSboard-configure
 
 
 #############################################
@@ -63,7 +63,7 @@ build TaschenrechnerRPN.Debug+ITSboard-configure: phony CMakeFiles/Taschenrechne
 #############################################
 # Utility command for TaschenrechnerRPN.Debug+ITSboard-executes
 
-build TaschenrechnerRPN.Debug+ITSboard-executes: phony CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-executes TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir TaschenrechnerRPN.Debug+ITSboard-build
+build TaschenrechnerRPN.Debug+ITSboard-executes: phony CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-executes TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir TaschenrechnerRPN.Debug+ITSboard-build
 
 
 #############################################
@@ -76,7 +76,7 @@ build TaschenrechnerRPN.Debug+ITSboard-database: phony CMakeFiles/Taschenrechner
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/ccmake -S/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp -B/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/ccmake -S/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp -B/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -88,7 +88,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake --regenerate-during-build -S/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp -B/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake --regenerate-during-build -S/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp -B/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -106,7 +106,7 @@ build CMakeFiles/TaschenrechnerRPN.Debug+ITSboard | ${cmake_ninja_workdir}CMakeF
 # Custom command for CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete
 
 build CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-done | ${cmake_ninja_workdir}CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-done: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database || TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard-database TaschenrechnerRPN.Debug+ITSboard-executes
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E make_directory /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/CMakeFiles && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-done
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E make_directory /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-done
   DESC = Completed 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -114,8 +114,8 @@ build CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-complete TaschenrechnerRPN.Deb
 #############################################
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build
 
-build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure || TaschenrechnerRPN.Debug+ITSboard-configure
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo "Building CMake target 'TaschenrechnerRPN.Debug+ITSboard'" && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake --build /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/1
+build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug/TaschenrechnerRPN.axf | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure || TaschenrechnerRPN.Debug+ITSboard-configure
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo "Building CMake target 'TaschenrechnerRPN.Debug+ITSboard'" && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake --build /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1
   DESC = Performing build step for 'TaschenrechnerRPN.Debug+ITSboard'
   pool = console
   restat = 1
@@ -125,7 +125,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/tmp/TaschenrechnerRPN.Debug+ITSboard-cfgcmd.txt TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -P /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-.cmake && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -P /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-.cmake && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure
   DESC = Performing configure step for 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -134,7 +134,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure || TaschenrechnerRPN.Debug+ITSboard-configure
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -P /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-.cmake
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -P /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-.cmake
   DESC = Performing database step for 'TaschenrechnerRPN.Debug+ITSboard'
   pool = console
 
@@ -143,7 +143,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-source_dirinfo.txt TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download
   DESC = No download step for 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -152,7 +152,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build || TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard-configure
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-executes
   DESC = No executes step for 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -161,7 +161,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build || TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard-database TaschenrechnerRPN.Debug+ITSboard-executes
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append
   DESC = No install step for 'TaschenrechnerRPN.Debug+ITSboard'
 
 
@@ -169,7 +169,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir: CUSTOM_COMMAND
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -Dcfgdir= -P /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/tmp/TaschenrechnerRPN.Debug+ITSboard-mkdirs.cmake && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -Dcfgdir= -P /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/tmp/TaschenrechnerRPN.Debug+ITSboard-mkdirs.cmake && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir
   DESC = Creating directories for 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -178,7 +178,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch-info.txt TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch
   DESC = No patch step for 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -187,7 +187,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-install || TaschenrechnerRPN.Debug+ITSboard-build TaschenrechnerRPN.Debug+ITSboard-configure TaschenrechnerRPN.Debug+ITSboard-database TaschenrechnerRPN.Debug+ITSboard-executes
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1 && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-test
   DESC = No test step for 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -196,7 +196,7 @@ build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stam
 # Custom command for TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update
 
 build TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update | ${cmake_ninja_workdir}TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update: CUSTOM_COMMAND TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update-info.txt TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download
-  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update
+  COMMAND = cd /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E echo_append && /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake -E touch /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update
   DESC = No update step for 'TaschenrechnerRPN.Debug+ITSboard'
   restat = 1
 
@@ -233,7 +233,7 @@ build CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-database | ${cmake_ninja_workd
 # =============================================================================
 
 #############################################
-# Folder: /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp
+# Folder: /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp
 
 build all: phony TaschenrechnerRPN.Debug+ITSboard
 

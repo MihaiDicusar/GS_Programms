@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/CMakeFiles/Stack.Debug+ITSboard-executes"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/CMakeFiles/Stack.Debug+ITSboard-executes.rule"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-executes.rule"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-build.rule"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-configure.rule"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-patch.rule"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-update.rule"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-download.rule"
+		},
+		{
+			"file" : "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Stack.Debug+ITSboard"
+		],
+		"name" : "Stack.Debug+ITSboard-executes"
+	}
+}

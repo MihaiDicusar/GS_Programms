@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard
+source_dir=/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard
 work_dir=
 

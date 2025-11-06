@@ -1,11 +1,11 @@
 
 cmake_minimum_required(VERSION 3.15)
 
-set(command "/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake;-G;Ninja;-S;/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard;-B;/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/1;-DSOLUTION_ROOT=/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN;-DCMSIS_PACK_ROOT=/Users/yunis/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.11.0/etc")
+set(command "/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake;-G;Ninja;-S;/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard;-B;/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1;-DSOLUTION_ROOT=/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN;-DCMSIS_PACK_ROOT=/Users/yunis/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.12.0/etc")
 set(log_merged "")
 set(log_output_on_failure "ON")
-set(stdout_log "/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-out.log")
-set(stderr_log "/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-err.log")
+set(stdout_log "/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-out.log")
+set(stderr_log "/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-err.log")
 execute_process(
   COMMAND ${command}
   RESULT_VARIABLE result
@@ -31,7 +31,7 @@ if(result)
   if (${log_merged})
     set(msg "${msg}\nSee also\n  ${stderr_log}")
   else()
-    set(msg "${msg}\nSee also\n  /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-*.log")
+    set(msg "${msg}\nSee also\n  /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-*.log")
   endif()
   if (${log_output_on_failure})
     message(SEND_ERROR "${msg}")
@@ -50,7 +50,7 @@ if(result)
   endif()
 else()
   if(NOT "Ninja" MATCHES "Ninja")
-    set(msg "TaschenrechnerRPN.Debug+ITSboard configure command succeeded.  See also /Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-*.log")
+    set(msg "TaschenrechnerRPN.Debug+ITSboard configure command succeeded.  See also /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure-*.log")
     message(STATUS "${msg}")
   endif()
 endif()
