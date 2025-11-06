@@ -1,5 +1,5 @@
 build:
-  generated-by: csolution version 2.12.0
+  generated-by: csolution version 2.11.0
   solution: ../../../../Stack.csolution.yml
   project: ../../../../Stack.cproject.yml
   context: Stack.Debug+ITSboard
@@ -43,7 +43,6 @@ build:
   dbgconf:
     - file: ../../../../.cmsis/Stack+ITSboard.dbgconf
       version: 0.0.0
-      status: missing file
   processor:
     endian: little
     fpu: sp

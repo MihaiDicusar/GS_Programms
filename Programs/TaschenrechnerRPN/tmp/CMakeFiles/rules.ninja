@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\burun\.vcpkg\artifacts\2139c4c6\tools.kitware.cmake\3.28.4\bin\cmake.exe --regenerate-during-build -SC:\TI_Labor\gitProjekte\ITS-BRD-VSC\Programs\TaschenrechnerRPN\tmp -BC:\TI_Labor\gitProjekte\ITS-BRD-VSC\Programs\TaschenrechnerRPN\tmp
+  command = /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake --regenerate-during-build -S/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp -B/Users/yunis/GitHubRepo/GS_Programms_clone/Programs/TaschenrechnerRPN/tmp
   description = Re-running CMake...
   generator = 1
 
@@ -32,7 +32,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\Users\burun\.vcpkg\artifacts\2139c4c6\tools.ninja.build.ninja\1.12.1\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.12.1/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -40,6 +40,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\Users\burun\.vcpkg\artifacts\2139c4c6\tools.ninja.build.ninja\1.12.1\ninja.exe -t targets
+  command = /Users/yunis/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.12.1/ninja -t targets
   description = All primary targets available:
 
