@@ -42,7 +42,7 @@ int pop(int *value)
 
 void clearStack()
 {
-    if (counter > 0)
+    if (counter > 0) //test test
     {
         counter = 0;
     }
