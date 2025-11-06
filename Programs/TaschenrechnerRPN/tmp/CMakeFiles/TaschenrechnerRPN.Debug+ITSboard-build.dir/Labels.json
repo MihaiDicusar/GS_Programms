@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-build"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-build.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-build.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-configure.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-patch.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-update.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-download.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TaschenrechnerRPN.Debug+ITSboard"
+		],
+		"name" : "TaschenrechnerRPN.Debug+ITSboard-build"
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard-complete.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-build.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-configure.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-database.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-download.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-executes.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-install.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-mkdir.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-patch.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-test.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TestNewFont.Debug+ITSboard"
+		],
+		"name" : "TestNewFont.Debug+ITSboard"
+	}
+}

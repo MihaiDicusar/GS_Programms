@@ -1,0 +1,24 @@
+build-idx:
+  generated-by: csolution version 2.12.0
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: Stack.csolution.yml
+  cbuild-run: out/Stack+ITSboard.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: Stack.cproject.yml
+  cbuilds:
+    - cbuild: out/Stack/ITSboard/Debug/Stack.Debug+ITSboard.cbuild.yml
+      project: Stack
+      configuration: .Debug+ITSboard
+      errors: true
+      messages:
+        errors:
+          - file 'C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/Stack/.cmsis/Stack+ITSboard.dbgconf' not found; use --update-rte
+        info:
+          - Stack.cbuild-pack.yml - file generated successfully
+          - "RTE Model reports:\nConstructed file C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/Stack/RTE/_Debug_ITSboard/RTE_Components.h was recreated"
+          - Stack+ITSboard.cbuild-run.yml - file generated successfully
+          - Stack.Debug+ITSboard.cbuild.yml - file generated successfully
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.16.2
+        - pack: ARM::CMSIS-NN@6.0.0
