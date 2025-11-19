@@ -1,6 +1,6 @@
 CompileFlags:
   CompilationDatabase: >-
-    /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug
+    c:\TI_Labor\gitProjekte\GS_Programms\Programs\TaschenrechnerRPN\out\TaschenrechnerRPN\ITSboard\Debug
   Add:
     - '-D_ILP32=1'
     - '-D_USE_STATIC_INLINE=1'
@@ -413,26 +413,27 @@ CompileFlags:
     - '-D__thumb__=1'
     - '-D__ARMCOMPILER_LIBCXX=1'
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/CMSIS/Device/ST/STM32F4xx/Include
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/CMSIS/Include
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/CMSIS/Include
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/BSP/STM32F4xx_Nucleo_144
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Drivers/BSP/STM32F4xx_Nucleo_144
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Utilities/Fonts
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../stm32cubef4/Utilities/Fonts
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../DisplayWaveshare/Inc
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../DisplayWaveshare/Inc
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../ITS_BRD_LIB/Utilities/AddFonts
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../ITS_BRD_LIB/Utilities/AddFonts
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/RTE/_Debug_ITSboard
-    - '-I/Users/yunis/.cache/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include'
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/RTE/_Debug_ITSboard
     - >-
-      -I/Users/yunis/.cache/arm/packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+      -IC:/Users/burun/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
     - >-
-      -I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/../../ITS_BRD_LIB/Inc
-    - '-I/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/Inc'
+      -IC:/Users/burun/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - >-
+      -IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/../../ITS_BRD_LIB/Inc
+    - '-IC:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/Inc'

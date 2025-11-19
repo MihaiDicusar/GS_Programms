@@ -337,6 +337,8 @@ build:
           category: header
         - file: ../../../../Inc/output_print.h
           category: header
+        - file: ../../../../Inc/custom_errors.h
+          category: header
     - group: Program/User/Src
       files:
         - file: ../../../../Src/main.c

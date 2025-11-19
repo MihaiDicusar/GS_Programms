@@ -1,8 +1,8 @@
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/database.dir
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard.dir
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-build.dir
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-configure.dir
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-executes.dir
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-database.dir
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/edit_cache.dir
-/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/rebuild_cache.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/database.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-build.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-configure.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-executes.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/TaschenrechnerRPN.Debug+ITSboard-database.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/edit_cache.dir
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/CMakeFiles/rebuild_cache.dir

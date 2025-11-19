@@ -1,11 +1,11 @@
 
 cmake_minimum_required(VERSION 3.15)
 
-set(command "/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake;--build;/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/1;--target;database")
+set(command "C:/Users/burun/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake.exe;--build;C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/1;--target;database")
 set(log_merged "")
 set(log_output_on_failure "ON")
-set(stdout_log "/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-out.log")
-set(stderr_log "/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-err.log")
+set(stdout_log "C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-out.log")
+set(stderr_log "C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-err.log")
 execute_process(
   COMMAND ${command}
   RESULT_VARIABLE result
@@ -31,7 +31,7 @@ if(result)
   if (${log_merged})
     set(msg "${msg}\nSee also\n  ${stderr_log}")
   else()
-    set(msg "${msg}\nSee also\n  /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-*.log")
+    set(msg "${msg}\nSee also\n  C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-*.log")
   endif()
   if (${log_output_on_failure})
     message(SEND_ERROR "${msg}")
@@ -50,7 +50,7 @@ if(result)
   endif()
 else()
   if(NOT "Ninja" MATCHES "Ninja")
-    set(msg "TaschenrechnerRPN.Debug+ITSboard database command succeeded.  See also /Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-*.log")
+    set(msg "TaschenrechnerRPN.Debug+ITSboard database command succeeded.  See also C:/TI_Labor/gitProjekte/GS_Programms/Programs/TaschenrechnerRPN/tmp/TaschenrechnerRPN.Debug+ITSboard/src/TaschenrechnerRPN.Debug+ITSboard-stamp/TaschenrechnerRPN.Debug+ITSboard-database-*.log")
     message(STATUS "${msg}")
   endif()
 endif()

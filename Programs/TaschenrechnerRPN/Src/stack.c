@@ -10,40 +10,56 @@
 #include <stdio.h>
 #include "stack.h"
 #include "display.h"
+#include "custom_errors.h"
 
-int counter = 0;
-int stack[STACK_SIZE];
+#define STACK_SIZE 10
+
+static int size = 0;
+static int stack[STACK_SIZE];
 
 int push(int number)
 {
-    if(counter < STACK_SIZE)
+    if(size < STACK_SIZE)
     {
-        stack[counter] = number;
-        counter++;
+        stack[size] = number;
+        size++;
     }
     else {
         printStdout("STACK OVERFLOW ERROR\n");
-        return STACKOVERFLOW_ERROR;
+        return STACK_OVERFLOW_ERROR;
     }
-    return 0;
+    return RESULT_OK;
 }
 
 int pop(int *value)
 {
-    if(counter > 0)
+    if(size > 0)
     {
-        *value = stack[--counter];
-        return 0;
+        *value = stack[--size];
+        return RESULT_OK;
     }
     else {
-        return STACKUNDERFLOW_ERROR;
+        return STACK_UNDERFLOW_ERROR;
     }
+}
+
+int getValueFromStack(int pos)
+{
+    if(size > 0)
+    {
+        return stack[size - pos];
+    }
+}
+
+int getSize()
+{
+    return size;
 }
 
 void clearStack()
 {
-    if (counter > 0)
+    if (size > 0)
     {
-        counter = 0;
+        size = 0;
     }
 }

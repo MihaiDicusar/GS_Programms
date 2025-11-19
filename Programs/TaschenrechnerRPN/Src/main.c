@@ -74,6 +74,9 @@ int main(void) {
 			case DOUBLE:
 				duplicate();
 			break;
+
+			default:
+				showOverflowError();
 		}	
 	}
 }

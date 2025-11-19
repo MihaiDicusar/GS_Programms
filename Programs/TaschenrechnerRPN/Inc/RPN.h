@@ -8,9 +8,6 @@
 #ifndef RPN_H
 #define RPN_H
 
-#define DIV0_ERROR              -1
-#define INT_OVERFLOW_ERROR      -2
-
 /**
 * @brief This function pops the first two values from the stack
 *        and summarizes them. Then the result is pushed back onto the stack.
@@ -84,5 +81,12 @@ int swap();
 *         STACKUNDERFLOW_ERROR if not enough values for this operation can be popped
 */
 int duplicate();
+
+/**
+* @brief This function shows an input overflow error on display, for example when the user is
+         inserting 2147483648.
+* @return INPUT_OVERFLOW_ERROR if number from input is too large
+*/
+int showOverflowError();
 
 #endif

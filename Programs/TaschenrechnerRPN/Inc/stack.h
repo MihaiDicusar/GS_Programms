@@ -8,13 +8,6 @@
 #ifndef STACK_H
 #define STACK_H
 
-#define STACK_SIZE 10
-#define STACKUNDERFLOW_ERROR    -1
-#define STACKOVERFLOW_ERROR     -2
-
-extern int stack[STACK_SIZE];
-extern int counter;
-
 /**
 *  @brief This function pushes the value of the token NUMBER onto the top of the stack
 *  @return 0 if succesful or STACKOVERFLOW_ERROR when a value is pushed onto a full stack
@@ -32,5 +25,17 @@ int pop(int *result);
 * @return void
 */
 void clearStack(void);
+
+/**
+* @brief This function returns the value from the stack at position given in the parameter.
+* @return value at position "pos" from the stack
+*/
+int getValueFromStack(int pos);
+
+/**
+* @brief This function returns the size of the stack
+* @return size of the stack
+*/
+int getSize();
 
 #endif

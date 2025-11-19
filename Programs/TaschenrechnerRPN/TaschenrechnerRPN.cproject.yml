@@ -178,6 +178,7 @@ project:
         - file: Inc/token.h
         - file: Inc/stack.h
         - file: Inc/output_print.h
+        - file: Inc/custom_errors.h
 
 
     # Benutzerdefinierte Programmdateien
