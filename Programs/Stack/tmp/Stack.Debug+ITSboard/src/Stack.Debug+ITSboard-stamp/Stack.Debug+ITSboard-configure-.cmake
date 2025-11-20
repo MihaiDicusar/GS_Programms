@@ -1,7 +1,7 @@
 
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-set(command "/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake;-G;Ninja;-S;/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard;-B;/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/1;-DSOLUTION_ROOT=/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack;-DCMSIS_PACK_ROOT=/Users/yunis/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.12.0/etc")
+set(command "/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.31.5/bin/cmake;-G;Ninja;-S;/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard;-B;/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/1;-DSOLUTION_ROOT=/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack;-DCMSIS_PACK_ROOT=/Users/yunis/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/yunis/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.12.0/etc")
 set(log_merged "")
 set(log_output_on_failure "ON")
 set(stdout_log "/Users/yunis/GitHubRepo/GS_Programms/Programs/Stack/tmp/Stack.Debug+ITSboard/src/Stack.Debug+ITSboard-stamp/Stack.Debug+ITSboard-configure-out.log")

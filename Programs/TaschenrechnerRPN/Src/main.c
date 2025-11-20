@@ -21,17 +21,19 @@
 #include "additionalFonts.h"
 #include "error.h"
 #include "token.h"
+#include "errorHandler.h"
 
 // test neu 
 int main(void) {
 	initITSboard();    // Initialisierung des ITS Boards
 	initDisplay();
-
+	
 	// Test in Endlosschleife
 	while(1) {
 		T_token token = nextToken();
 		char pressedButton = token.tok;
 		int tokenVal;
+		int error;
 		switch (pressedButton)
 		{
 			case NUMBER:
@@ -40,44 +42,49 @@ int main(void) {
 			break;
 
 			case PLUS:
-				add();
+				error = add();
 			break;
 
 			case MINUS:
-				subtract();
+				error = subtract();
 			break;
 
 			case MULT:
-				multiply();
+				error = multiply();
 			break;
 
 			case DIV:
-				divide();
+				error = divide();
 			break;
 
 			case PRT:
-				print();
+				error = print();
 			break;
 
 			case PRT_ALL:
-				printAll();
+				error = printAll();
 			break;
 
 			case CLEAR:
-				clear();
+				error = clear();
 			break;
 
 			case SWAP:
-				swap();
+				error = swap();
 			break;
 
 			case DOUBLE:
-				duplicate();
+				error = duplicate();
 			break;
 
 			default:
-				showOverflowError();
+				error = INPUT_OVERFLOW_ERROR;
 		}	
+
+		if (error != RESULT_OK){
+	    	errorHandler(error);
+        }
+
 	}
 }
 

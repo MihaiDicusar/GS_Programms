@@ -1,0 +1,7 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=/Users/yunis/GitHubRepo/GS_Programms/Programs/TaschenrechnerRPN/out/TaschenrechnerRPN/ITSboard/Debug"
+    ],
+    "debug.hideSlowPreLaunchWarning": true,
+    "debug.showInStatusBar": "never"
+}

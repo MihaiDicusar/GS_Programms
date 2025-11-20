@@ -25,7 +25,7 @@ int push(int number)
         size++;
     }
     else {
-        printStdout("STACK OVERFLOW ERROR\n");
+        
         return STACK_OVERFLOW_ERROR;
     }
     return RESULT_OK;

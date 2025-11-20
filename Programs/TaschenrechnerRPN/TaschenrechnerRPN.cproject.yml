@@ -190,6 +190,7 @@ project:
         - file: Src/scanner.c
         - file: Src/stack.c
         - file: Src/output_print.c
+        - file: Src/errorHandler.c
         
 
 

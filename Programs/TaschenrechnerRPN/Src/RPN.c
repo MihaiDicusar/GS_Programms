@@ -27,13 +27,14 @@ static char buffer[20];
 int add()
 {
     firstReturnVal = pop(&firstNumber);
+
     secondReturnVal = pop(&secondNumber);
     if (firstReturnVal == 0 && secondReturnVal == 0)
     {
         if ((firstNumber > 0 && secondNumber > 0 && firstNumber > INT_MAX - secondNumber) ||
             (firstNumber < 0 && secondNumber < 0 && firstNumber < INT_MIN - secondNumber))
             {
-                printStdout("INT OVERFLOW ERROR\n"); 
+                 
                 return INT_OVERFLOW_ERROR;
             }
         int sum = firstNumber + secondNumber;
@@ -43,8 +44,9 @@ int add()
     if (firstReturnVal == 0)
     {
         push(firstNumber);
+        return secondReturnVal;
     }
-    printStdout("STACK UNDERFLOW ERROR\n");
+
     return STACK_UNDERFLOW_ERROR;   
 }
 
@@ -57,7 +59,7 @@ int subtract()
         if ((secondNumber > 0 && firstNumber < 0 && secondNumber > INT_MAX + firstNumber) ||
             (secondNumber < 0 && firstNumber > 0 && secondNumber < INT_MIN + firstNumber))
             {
-                printStdout("INT OVERFLOW ERROR\n"); 
+                
                 return INT_OVERFLOW_ERROR;
             }
         int diff = secondNumber - firstNumber;
@@ -67,8 +69,9 @@ int subtract()
     if (firstReturnVal == 0)
     {
         push(firstNumber);
+        return secondReturnVal;
     }
-    printStdout("STACK UNDERFLOW ERROR\n");  
+      
     return STACK_UNDERFLOW_ERROR; 
 }
 
@@ -84,7 +87,7 @@ int multiply()
             (firstNumber < 0 && secondNumber > 0 && firstNumber < INT_MIN / secondNumber) ||
             (firstNumber < 0 && secondNumber < 0 && firstNumber < INT_MAX / secondNumber))
             {
-                printStdout("INT OVERFLOW ERROR\n"); 
+                 
                 return INT_OVERFLOW_ERROR;
             }
         int prod = firstNumber * secondNumber;
@@ -94,8 +97,9 @@ int multiply()
     if (firstReturnVal == 0)
     {
         push(firstNumber);
+        return secondReturnVal;
     }
-    printStdout("STACK UNDERFLOW ERROR\n"); 
+    
     return STACK_UNDERFLOW_ERROR;    
 }
 
@@ -107,11 +111,11 @@ int divide()
     {
         if (firstNumber == 0)
         {
-            printStdout("DIVISION/0 ERROR\n");
+            
             return DIV0_ERROR;
         } else if (secondNumber == INT_MIN && firstNumber == -1)
         {
-            printStdout("INT OVERFLOW ERROR\n");
+            
             return INT_OVERFLOW_ERROR;
         }
         int quot = secondNumber / firstNumber;
@@ -121,12 +125,12 @@ int divide()
     if (firstReturnVal == 0)
     {
         push(firstNumber);
+        return secondReturnVal;
     }
-    printStdout("STACK UNDERFLOW ERROR\n"); 
     return STACK_UNDERFLOW_ERROR;
 }
 
-void print()
+int print()
 {
     clearStdout();
     if(getSize() > 0)
@@ -135,9 +139,10 @@ void print()
         strcat(buffer, "\n");
         printStdout(buffer);
     }
+    return RESULT_OK;
 }
 
-void printAll()
+int printAll()
 {
     clearStdout();
     if(getSize() > 0)
@@ -149,12 +154,15 @@ void printAll()
             printStdout(buffer);
         }
     }
+        return RESULT_OK;
+
 }
 
-void clear()
+int clear()
 {
     clearStack();
     clearStdout();
+    return RESULT_OK;
 }
 
 int swap()
@@ -170,26 +178,23 @@ int swap()
     if (firstReturnVal == 0)
     {
         push(firstNumber);
+        return secondReturnVal;
     }
-    printStdout("STACK UNDERFLOW ERROR\n"); 
-    return STACK_UNDERFLOW_ERROR;
+    
+    return firstReturnVal;
 }
 
 int duplicate()
 {
+    int returnVal;
     firstReturnVal = pop(&firstNumber);
     if (firstReturnVal == 0)
     {
         push(firstNumber);
-        push(firstNumber);
-        return RESULT_OK;
+        
+        returnVal = push(firstNumber);
+        return returnVal;
     }
-    printStdout("STACK UNDERFLOW ERROR\n");  
-    return STACK_UNDERFLOW_ERROR; 
-}
-
-int showOverflowError()
-{
-    printStdout("INPUT OVERFLOW ERROR\n");  
-    return INPUT_OVERFLOW_ERROR;
+    
+    return firstReturnVal;
 }

@@ -50,19 +50,19 @@ int divide();
 * @brief This function prints the first value from the stack to the stdout terminal
 * @return void
 */
-void print();
+int print();
 
 /**
 * @brief This function prints all the values from the stack to the stdout terminal
 * @return void
 */
-void printAll();
+int printAll();
 
 /**
 * @brief This function clears the stack and the stdout terminal
 * @return void
 */
-void clear();
+int clear();
 
 /**
 * @brief This function pops the first two values from the stack
