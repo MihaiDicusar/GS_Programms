@@ -1,0 +1,7 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=c:\\TI_Labor\\gitProjekte\\GS_Programms\\Programs\\Drehgeber\\out\\Drehgeber\\ITSboard\\Debug"
+    ],
+    "debug.hideSlowPreLaunchWarning": true,
+    "debug.showInStatusBar": "never"
+}

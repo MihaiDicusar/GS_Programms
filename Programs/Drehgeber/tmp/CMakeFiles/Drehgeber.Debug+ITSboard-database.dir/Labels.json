@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/CMakeFiles/Drehgeber.Debug+ITSboard-database"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/CMakeFiles/Drehgeber.Debug+ITSboard-database.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-database.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-configure.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-patch.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-update.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-download.rule"
+		},
+		{
+			"file" : "C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Drehgeber.Debug+ITSboard"
+		],
+		"name" : "Drehgeber.Debug+ITSboard-database"
+	}
+}

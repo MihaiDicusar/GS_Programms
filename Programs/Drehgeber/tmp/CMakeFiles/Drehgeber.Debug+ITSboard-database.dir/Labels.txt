@@ -1,0 +1,11 @@
+# Target labels
+ Drehgeber.Debug+ITSboard
+# Source files and their labels
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/CMakeFiles/Drehgeber.Debug+ITSboard-database
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/CMakeFiles/Drehgeber.Debug+ITSboard-database.rule
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-database.rule
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-configure.rule
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-patch.rule
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-update.rule
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-download.rule
+C:/TI_Labor/gitProjekte/GS_Programms/Programs/Drehgeber/tmp/Drehgeber.Debug+ITSboard/src/Drehgeber.Debug+ITSboard-stamp/Drehgeber.Debug+ITSboard-mkdir.rule
