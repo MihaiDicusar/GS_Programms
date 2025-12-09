@@ -1,6 +1,15 @@
+/**
+* @file display_output.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module is used to display the angle and the angular velocity,
+*		 as well as the text for start screen.
+*/
+
 #include <stdio.h>
 #include "lcd.h"
 #include <string.h>
+#include "display_output.h"
 
 char bufAngle[20] = "";
 char bufVelocity[20] = "";
@@ -12,49 +21,34 @@ int current_done = 0;
 
 void display_init()
 {
-    lcdGotoXY(1, 1);
-	lcdPrintlnS("Angle: ");
-	lcdGotoXY(1, 3);
+    lcdGotoXY(ANGLE_TEXT_POS_X, ANGLE_TEXT_POS_Y);
+	lcdPrintlnS("Angle:            ");
+	lcdGotoXY(ANGLE_NR_POS_X, ANGLE_NR_POS_Y);
+	lcdPrintS("0.00");
+	lcdGotoXY(DEG_POS_X, DEG_POS_Y);
+	lcdPrintS("DEG");
+
+	lcdGotoXY(ANG_VEL_TEXT_POS_X, ANG_VEL_TEXT_POS_Y);
 	lcdPrintlnS("Angular velocity: ");
-}
-
-char resetBufAngle()
-{
-    bufAngle[0] = '\0';
-}
-
-char resetBufVelocity()
-{
-    bufVelocity[0] = '\0';
+	lcdGotoXY(ANG_VEL_NR_POS_X, ANG_VEL_NR_POS_Y);
+	lcdPrintS("0.00");
+	lcdGotoXY(DEG_S_POS_X, DEG_S_POX_Y);
+	lcdPrintS("DEG/S");
 }
 
 void display_angle(double angle)
 {
-	sprintf(bufAngle, "%-5.2f", angle);
-
-	last_done = 0;
-	current_done = 0;
+	sprintf(bufAngle, "%-6.2f", angle);
 
 	int angleMaxLen = (strlen(bufAngle) > strlen(lastBufAngle)) ? strlen(bufAngle) : strlen(lastBufAngle);
 	for (int i = 0; i < angleMaxLen; i++)
 	{
-		char last_char = lastBufAngle[i];
-		char current_char = bufAngle[i];
+		char current_char = (i < strlen(bufAngle)) ? bufAngle[i] : ' ';
 
-		if (last_char == '\0') {last_done = 1;}
-		if (current_char == '\0') {current_done = 1;}
-
-    	if (last_done && current_done)
+		if (lastBufAngle[i] != current_char)
 		{
-			lastBufAngle[i] = '\0';
-			break;
-		}
-
-		if (last_char != current_char)
-		{
-			lcdGotoXY(8 + i, 1);
-			char print_char = (current_done) ? ' ' : current_char;
-			lcdPrintC(print_char);
+			lcdGotoXY(ANGLE_NR_POS_X + i, ANGLE_NR_POS_Y);
+			lcdPrintC(current_char);
 			lastBufAngle[i] = current_char;
 		}
 	}
@@ -62,7 +56,7 @@ void display_angle(double angle)
 
 void display_velocity(double velocity)
 {
-    sprintf(bufVelocity, "%-5.2f", velocity);
+    sprintf(bufVelocity, "%-6.2f", velocity);
 
     last_done = 0;
 	current_done = 0;
@@ -84,7 +78,7 @@ void display_velocity(double velocity)
 
 		if (last_char != current_char)
 		{
-			lcdGotoXY(19 + i, 3);
+			lcdGotoXY(ANG_VEL_NR_POS_X + i, ANG_VEL_NR_POS_Y);
 			char print_char = (current_done) ? ' ' : current_char;
 			lcdPrintC(print_char);
 			lastBufVelocity[i] = current_char;

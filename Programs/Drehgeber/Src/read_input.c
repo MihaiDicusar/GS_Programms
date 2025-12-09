@@ -1,3 +1,11 @@
+/**
+* @file read_input.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module reads the input from pins IN0(Channel A)
+*        and IN1(Channel B), as well as from button S6 for error handler.
+*/
+
 #include <stdbool.h>
 #include "stm32f429xx.h"
 #include "stm32f4xx_hal.h"   

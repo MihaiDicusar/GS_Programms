@@ -3,9 +3,9 @@
 <title>Static Call Graph - [C:\TI_Labor\gitProjekte\GS_Programms\Programs\Drehgeber\out\Drehgeber\ITSboard\Debug\Drehgeber.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image C:\TI_Labor\gitProjekte\GS_Programms\Programs\Drehgeber\out\Drehgeber\ITSboard\Debug\Drehgeber.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Fri Nov 28 14:35:34 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Tue Dec  9 20:07:20 2025
 <BR><P>
-<H3>Maximum Stack Usage =        496 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =        512 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 main &rArr; handle_error &rArr; display_init &rArr; lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 <P>
@@ -483,9 +483,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[f1]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
+<BR><BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_angle
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
 </UL>
 
 <P><STRONG><a name="[80]"></a>__aeabi_dmul</STRONG> (Thumb, 228 bytes, Stack size 48 bytes, dmul.o(.text))
@@ -494,8 +494,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
-<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
-<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getAngle
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getAngle
 </UL>
 
 <P><STRONG><a name="[82]"></a>__aeabi_ddiv</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, ddiv.o(.text))
@@ -504,7 +504,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
 <BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
-<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
 </UL>
 
 <P><STRONG><a name="[84]"></a>__aeabi_i2d</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, dflti.o(.text))
@@ -512,8 +512,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
-<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getAngle
+<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getAngle
 </UL>
 
 <P><STRONG><a name="[85]"></a>__aeabi_ui2d</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, dfltui.o(.text))
@@ -521,7 +521,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
+<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
 </UL>
 
 <P><STRONG><a name="[120]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
@@ -664,7 +664,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_clear
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 </UL>
 
 <P><STRONG><a name="[96]"></a>GUI_disChar</STRONG> (Thumb, 188 bytes, Stack size 40 bytes, LCD_GUI.o(.text.GUI_disChar))
@@ -694,7 +694,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_disChar
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;printDebugMsg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
+<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_disNum
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;printDebugMsg
 </UL>
@@ -706,7 +706,7 @@ Global Symbols
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_fillRectangleMC
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintC
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
 </UL>
 
 <P><STRONG><a name="[9e]"></a>GUI_init</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, LCD_GUI.o(.text.GUI_init))
@@ -773,7 +773,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = HAL_GPIO_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Control
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initGPIOs
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initGPIOs
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
 <LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_MspPostInit
 <LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
@@ -823,7 +823,7 @@ Global Symbols
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
 </UL>
 
 <P><STRONG><a name="[a7]"></a>HAL_InitTick</STRONG> (Thumb, 112 bytes, Stack size 16 bytes, stm32f4xx_hal.o(.text.HAL_InitTick))
@@ -1121,10 +1121,10 @@ Global Symbols
 <P><STRONG><a name="[5]"></a>UsageFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4xx_it.o(.text.UsageFault_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f429xx.o(RESET)
 </UL>
-<P><STRONG><a name="[fb]"></a>check_if_s6_pressed</STRONG> (Thumb, 56 bytes, Stack size 12 bytes, read_input.o(.text.check_if_s6_pressed))
+<P><STRONG><a name="[fc]"></a>check_if_s6_pressed</STRONG> (Thumb, 56 bytes, Stack size 12 bytes, read_input.o(.text.check_if_s6_pressed))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = check_if_s6_pressed
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 </UL>
 
 <P><STRONG><a name="[10d]"></a>convert_to_ms</STRONG> (Thumb, 40 bytes, Stack size 12 bytes, custom_time.o(.text.convert_to_ms))
@@ -1133,7 +1133,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[ef]"></a>display_angle</STRONG> (Thumb, 364 bytes, Stack size 48 bytes, display_output.o(.text.display_angle))
+<P><STRONG><a name="[ef]"></a>display_angle</STRONG> (Thumb, 250 bytes, Stack size 48 bytes, display_output.o(.text.display_angle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 392<LI>Call Chain = display_angle &rArr; lcdPrintC &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sprintf
@@ -1144,17 +1144,18 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f4]"></a>display_init</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, display_output.o(.text.display_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 400<LI>Call Chain = display_init &rArr; lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[f4]"></a>display_init</STRONG> (Thumb, 132 bytes, Stack size 32 bytes, display_output.o(.text.display_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 416<LI>Call Chain = display_init &rArr; lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdGotoXY
 <LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintlnS
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f6]"></a>display_velocity</STRONG> (Thumb, 364 bytes, Stack size 48 bytes, display_output.o(.text.display_velocity))
+<P><STRONG><a name="[f7]"></a>display_velocity</STRONG> (Thumb, 364 bytes, Stack size 48 bytes, display_output.o(.text.display_velocity))
 <BR><BR>[Stack]<UL><LI>Max Depth = 392<LI>Call Chain = display_velocity &rArr; lcdPrintC &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sprintf
@@ -1165,7 +1166,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f7]"></a>getAngle</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, angle.o(.text.getAngle))
+<P><STRONG><a name="[f8]"></a>getAngle</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, angle.o(.text.getAngle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = getAngle &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
@@ -1178,7 +1179,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f8]"></a>getVelocity</STRONG> (Thumb, 112 bytes, Stack size 32 bytes, angle.o(.text.getVelocity))
+<P><STRONG><a name="[f9]"></a>getVelocity</STRONG> (Thumb, 112 bytes, Stack size 32 bytes, angle.o(.text.getVelocity))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = getVelocity &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
 <BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
@@ -1213,13 +1214,13 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f9]"></a>handle_error</STRONG> (Thumb, 106 bytes, Stack size 16 bytes, error_handler.o(.text.handle_error))
-<BR><BR>[Stack]<UL><LI>Max Depth = 416<LI>Call Chain = handle_error &rArr; display_init &rArr; lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[fa]"></a>handle_error</STRONG> (Thumb, 106 bytes, Stack size 16 bytes, error_handler.o(.text.handle_error))
+<BR><BR>[Stack]<UL><LI>Max Depth = 432<LI>Call Chain = handle_error &rArr; display_init &rArr; lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_off_LED_GPIOE
-<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_on_LED_GPIOE
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_if_s6_pressed
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;resetCounter
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;resetCounter
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_off_LED_GPIOE
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_on_LED_GPIOE
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_if_s6_pressed
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdGotoXY
 <LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintlnS
@@ -1228,12 +1229,12 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[ff]"></a>initITSboard</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, init.o(.text.initITSboard))
+<P><STRONG><a name="[100]"></a>initITSboard</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, init.o(.text.initITSboard))
 <BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = initITSboard &rArr; SystemClock_Config &rArr; Error_Handler &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
-<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stdinout_init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initGPIOs
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stdinout_init
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initGPIOs
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1254,8 +1255,8 @@ Global Symbols
 <P><STRONG><a name="[f2]"></a>lcdGotoXY</STRONG> (Thumb, 58 bytes, Stack size 4 bytes, lcd.o(.text.lcdGotoXY))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = lcdGotoXY
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
-<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_angle
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 </UL>
@@ -1266,11 +1267,11 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_disChar
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_drawRectangle
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
+<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_angle
 </UL>
 
-<P><STRONG><a name="[101]"></a>lcdPrintS</STRONG> (Thumb, 466 bytes, Stack size 16 bytes, lcd.o(.text.lcdPrintS))
+<P><STRONG><a name="[f6]"></a>lcdPrintS</STRONG> (Thumb, 466 bytes, Stack size 16 bytes, lcd.o(.text.lcdPrintS))
 <BR><BR>[Stack]<UL><LI>Max Depth = 368<LI>Call Chain = lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
@@ -1278,28 +1279,28 @@ Global Symbols
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_disStr
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_drawRectangle
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintlnS
+<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintlnS
 </UL>
 
 <P><STRONG><a name="[f5]"></a>lcdPrintlnS</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, lcd.o(.text.lcdPrintlnS))
 <BR><BR>[Stack]<UL><LI>Max Depth = 384<LI>Call Chain = lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 </UL>
 
-<P><STRONG><a name="[64]"></a>main</STRONG> (Thumb, 280 bytes, Stack size 80 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 496<LI>Call Chain = main &rArr; handle_error &rArr; display_init &rArr; lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[64]"></a>main</STRONG> (Thumb, 284 bytes, Stack size 80 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 512<LI>Call Chain = main &rArr; handle_error &rArr; display_init &rArr; lcdPrintlnS &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;resetCounter
+<BR>[Calls]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 <LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;resetPhaseCounter
-<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_angle
-<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
-<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getAngle
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getVelocity
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getAngle
 <LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;convert_to_ms
 <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;update_LED_GPIOD
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCounter
@@ -1312,7 +1313,7 @@ Global Symbols
 <LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;givePinA
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initTimer
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
 <LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TP_InitBasic
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_init
 </UL>
@@ -1331,32 +1332,31 @@ Global Symbols
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_drawRectangle
 </UL>
 
-<P><STRONG><a name="[fd]"></a>resetCounter</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, angle.o(.text.resetCounter))
-<BR><BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
-<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<P><STRONG><a name="[fe]"></a>resetCounter</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, angle.o(.text.resetCounter))
+<BR><BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 </UL>
 
 <P><STRONG><a name="[10e]"></a>resetPhaseCounter</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, angle.o(.text.resetPhaseCounter))
 <BR><BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[100]"></a>stdinout_init</STRONG> (Thumb, 174 bytes, Stack size 16 bytes, stdinout_USART.o(.text.stdinout_init))
+<P><STRONG><a name="[101]"></a>stdinout_init</STRONG> (Thumb, 174 bytes, Stack size 16 bytes, stdinout_USART.o(.text.stdinout_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = stdinout_init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
 </UL>
 
-<P><STRONG><a name="[fc]"></a>turn_off_LED_GPIOE</STRONG> (Thumb, 26 bytes, Stack size 4 bytes, output_led.o(.text.turn_off_LED_GPIOE))
+<P><STRONG><a name="[fd]"></a>turn_off_LED_GPIOE</STRONG> (Thumb, 26 bytes, Stack size 4 bytes, output_led.o(.text.turn_off_LED_GPIOE))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = turn_off_LED_GPIOE
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 <LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;update_LED_GPIOE
 </UL>
 
-<P><STRONG><a name="[fa]"></a>turn_on_LED_GPIOE</STRONG> (Thumb, 24 bytes, Stack size 4 bytes, output_led.o(.text.turn_on_LED_GPIOE))
+<P><STRONG><a name="[fb]"></a>turn_on_LED_GPIOE</STRONG> (Thumb, 24 bytes, Stack size 4 bytes, output_led.o(.text.turn_on_LED_GPIOE))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = turn_on_LED_GPIOE
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handle_error
 <LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;update_LED_GPIOE
 </UL>
 
@@ -1366,7 +1366,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[109]"></a>updatePhaseCounter</STRONG> (Thumb, 58 bytes, Stack size 4 bytes, angle.o(.text.updatePhaseCounter))
+<P><STRONG><a name="[109]"></a>updatePhaseCounter</STRONG> (Thumb, 40 bytes, Stack size 4 bytes, angle.o(.text.updatePhaseCounter))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = updatePhaseCounter
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1381,8 +1381,8 @@ Global Symbols
 <P><STRONG><a name="[10a]"></a>update_LED_GPIOE</STRONG> (Thumb, 116 bytes, Stack size 16 bytes, output_led.o(.text.update_LED_GPIOE))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = update_LED_GPIOE &rArr; turn_off_LED_GPIOE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_off_LED_GPIOE
-<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_on_LED_GPIOE
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_off_LED_GPIOE
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;turn_on_LED_GPIOE
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1401,7 +1401,7 @@ Global Symbols
 <P><STRONG><a name="[f0]"></a>sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = sprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
+<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_velocity
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_angle
 </UL>
 
@@ -1611,7 +1611,7 @@ Local Symbols
 <P><STRONG><a name="[102]"></a>stringCopy</STRONG> (Thumb, 70 bytes, Stack size 24 bytes, lcd.o(.text.stringCopy))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = stringCopy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
+<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdPrintS
 </UL>
 
 <P><STRONG><a name="[d8]"></a>SystemClock_Config</STRONG> (Thumb, 184 bytes, Stack size 88 bytes, init.o(.text.SystemClock_Config))
@@ -1622,15 +1622,15 @@ Local Symbols
 <LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_PWREx_EnableOverDrive
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
 </UL>
 
-<P><STRONG><a name="[fe]"></a>initGPIOs</STRONG> (Thumb, 320 bytes, Stack size 64 bytes, init.o(.text.initGPIOs))
+<P><STRONG><a name="[ff]"></a>initGPIOs</STRONG> (Thumb, 320 bytes, Stack size 64 bytes, init.o(.text.initGPIOs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = initGPIOs &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
 </UL>
 
 <P><STRONG><a name="[68]"></a>USARTx_GetVersion</STRONG> (Thumb, 18 bytes, Stack size 4 bytes, USART_STM32F4xx.o(.text.USARTx_GetVersion))

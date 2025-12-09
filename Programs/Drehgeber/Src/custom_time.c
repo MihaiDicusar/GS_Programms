@@ -1,3 +1,12 @@
+/**
+* @file custom_time.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module gives the time difference based on first
+*        and second timestamps and then converts the time difference
+*        from ticks into ms.
+*/
+
 #include "timer.h"
 #include <stdint.h>
 

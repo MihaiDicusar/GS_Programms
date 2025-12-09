@@ -1,3 +1,11 @@
+/**
+* @file angle.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module calculates the angle and the angular velocity,
+*        updates or resets the counter or phase counter.
+*/
+
 #include "fsm.h"
 #include "angle.h"
 
@@ -21,6 +29,11 @@ int getCounter()
     return counter;
 }
 
+int getPhaseCounter()
+{
+    return phaseCounter;
+}
+
 void updateCounter(int direction)
 {
     if (direction == FORWARD_DIR)
@@ -29,25 +42,16 @@ void updateCounter(int direction)
     }
     else if (direction == BACKWARD_DIR)
     {
-        counter++;
+        counter--;
     }
 }
 
 void updatePhaseCounter(int direction)
 {
-    if (direction == FORWARD_DIR)
+    if (direction == FORWARD_DIR || direction == BACKWARD_DIR)
     {
         phaseCounter++;
     }
-    else if (direction == BACKWARD_DIR)
-    {
-        phaseCounter++;
-    }
-}
-
-int getPhaseCounter()
-{
-    return phaseCounter;
 }
 
 void resetCounter()

@@ -1,3 +1,10 @@
+/**
+* @file error_handler.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module is used to handle errors
+*/
+
 #include "error_handler.h"
 #include "LCD_GUI.h"
 #include "lcd.h"
@@ -12,8 +19,8 @@ void handle_error()
     turn_on_LED_GPIOE(D21);
     GUI_clear(RED);
     lcdGotoXY(1, 1);
-    lcdPrintlnS("FEHLER AUFGETRETEN!");
-    lcdPrintlnS("DRUECKE S6, UM DEN FEHLER ZU LOESCHEN!");
+    lcdPrintlnS("ERROR!");
+    lcdPrintlnS("PRESS S6 TO RESET!");
     while (still_error)
     {
         if (check_if_s6_pressed())

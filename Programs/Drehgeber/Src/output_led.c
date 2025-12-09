@@ -1,3 +1,11 @@
+/**
+* @file output_led.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module is used to turn on and off GPIOE and GPIOD leds,
+*        as well as to update them based on given direction or step counter
+*/
+
 #include "stm32f429xx.h"
 #include "stm32f4xx_hal.h"   
 #include "fsm.h"
@@ -36,7 +44,7 @@ void update_LED_GPIOE(int direction)
 void update_LED_GPIOD(int value)
 {
     int led_value = value & 0xFF;       //work only with 8 lowest bits LEDs
-    GPIOD->ODR = (GPIOD->ODR & ~0xFF) | led_value;      //turn of all GPIOD LEDs, then turn on based on led_value
+    GPIOD->ODR = (GPIOD->ODR & ~0xFF) | led_value;      //turn off all GPIOD LEDs, then turn on based on led_value
 }
 
 void turn_off_LED_GPIOE(int pin)

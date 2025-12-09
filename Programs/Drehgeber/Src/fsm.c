@@ -1,3 +1,11 @@
+/**
+* @file fsm.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module gives the direction of the rotary encoder
+*		 based on last phase and current phase.
+*/
+
 #include "phase.h"
 #include "error_handler.h"
 #include "fsm.h"

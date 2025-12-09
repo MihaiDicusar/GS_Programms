@@ -1,8 +1,10 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  Franz Korf
-  * @brief   Kleines Testprogramm fuer neu erstelle Fonts.
+  * @author  Mihai Dicusar
+  * @brief   This program reads inputs from a rotary encoder and displays
+  *			 direction, step counter using LEDs, as well as angle and angular
+  *			 velocity on the display screen.
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
@@ -21,7 +23,6 @@
 #include "output_led.h"
 #include "phase.h"
 #include "stm32f4xx_hal_def.h"
-#include <math.h>
 #include <stdint.h>
 #include "timer.h"
 #include "custom_time.h"
@@ -43,27 +44,27 @@ int main(void) {
 	int last_phase = 0;
 	int direction = NO_CHANGE_DIR;
 	int initialized = 0;
+	int current_phase = 0;
 	uint32_t windowStart = 0;
+	uint32_t windowEnd = 0;
 
   // Begruessungstext
 	display_init();
 	
 	// Test in Endlosschleife
 	while(1) {
+
 		int error = 0;
 		
 		int inputA;
 		int inputB;
-
-		int current_phase;
-
-		uint32_t windowEnd;
 
 		givePinA(&inputA);
 		givePinB(&inputB);
 
 		givePhase(&current_phase, inputA, inputB);
 
+		//if first run
 		if (!initialized)
 		{
 			last_phase = current_phase;
@@ -98,12 +99,11 @@ int main(void) {
 				display_angle(angle);
 				display_velocity(velocity);
 
-				if (timeDiff >= WINDOW_MIN && direction != NO_CHANGE_DIR ||
+				if ((timeDiff >= WINDOW_MIN && direction != NO_CHANGE_DIR) ||
 					timeDiff >= WINDOW_MAX)
 				{
 					windowStart = 0;
 					resetPhaseCounter();
-					resetCounter();
 				}
 			}
 		}
@@ -111,6 +111,7 @@ int main(void) {
 		if (error != 0)
 		{
 			handle_error();
+			initialized = 0;
 		}
 	}
 }

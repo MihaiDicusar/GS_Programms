@@ -1,3 +1,11 @@
+/**
+* @file phase.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module gives the phase based on the input 
+*		 from Channel A and B.
+*/
+
 #include "phase.h"
 #include "error_handler.h"
 
