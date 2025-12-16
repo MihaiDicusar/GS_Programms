@@ -56,3 +56,13 @@ void turn_on_LED_GPIOE(int pin)
 {
     GPIOE->BSRR = (0x01U << pin);
 }
+
+void turn_on_LED_GPIOD(int pin)
+{
+    GPIOD->ODR = (0x01U << pin);
+}
+
+void turn_off_LED_GPIOD(int pin)
+{
+    GPIOD->ODR = (0x01U << pin) << 16;
+}

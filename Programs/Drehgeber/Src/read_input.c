@@ -28,7 +28,7 @@ int givePinB(int *result)
     return RESULT_OK;
 }
 
-int check_if_s6_pressed()
+int s6_pressed()
 {
     int pressed = IDR_MASK_PIN_6 != (GPIOF->IDR & IDR_MASK_PIN_6);
     int not_pressed = IDR_MASK_PIN_6 == (GPIOF->IDR & IDR_MASK_PIN_6);

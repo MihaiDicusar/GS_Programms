@@ -29,6 +29,6 @@ int givePinB(int *result);
 * @return S6_PRESSED if pressed
 *         s6_NOT_PRESSED if not pressed
 */
-int check_if_s6_pressed();
+int s6_pressed();
 
 #endif

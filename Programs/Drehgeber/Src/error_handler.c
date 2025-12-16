@@ -23,7 +23,7 @@ void handle_error()
     lcdPrintlnS("PRESS S6 TO RESET!");
     while (still_error)
     {
-        if (check_if_s6_pressed())
+        if (s6_pressed())
         {
             still_error = 0;
             turn_off_LED_GPIOE(D21);

@@ -58,29 +58,15 @@ void display_velocity(double velocity)
 {
     sprintf(bufVelocity, "%-6.2f", velocity);
 
-    last_done = 0;
-	current_done = 0;
-
 	int velocityMaxLen = (strlen(bufVelocity) > strlen(lastBufVelocity)) ? strlen(bufVelocity) : strlen(lastBufVelocity);
 	for (int i = 0; i < velocityMaxLen; i++)
 	{
-		char last_char = lastBufVelocity[i];
-		char current_char = bufVelocity[i];
+		char current_char = (i < strlen(bufVelocity)) ? bufVelocity[i] : ' ';
 
-		if (last_char == '\0') {last_done = 1;}
-		if (current_char == '\0') {current_done = 1;}
-
-		if (last_done && current_done)
-		{
-			lastBufVelocity[i] = '\0';
-			break;
-		}
-
-		if (last_char != current_char)
+		if (lastBufVelocity[i] != current_char)
 		{
 			lcdGotoXY(ANG_VEL_NR_POS_X + i, ANG_VEL_NR_POS_Y);
-			char print_char = (current_done) ? ' ' : current_char;
-			lcdPrintC(print_char);
+			lcdPrintC(current_char);
 			lastBufVelocity[i] = current_char;
 		}
 	}

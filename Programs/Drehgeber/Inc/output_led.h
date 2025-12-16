@@ -40,4 +40,7 @@ void turn_off_LED_GPIOE(int pin);
 */
 void turn_on_LED_GPIOE(int pin);
 
+void turn_on_LED_GPIOD(int pin);
+void turn_off_LED_GPIOD(int pin);
+
 #endif
