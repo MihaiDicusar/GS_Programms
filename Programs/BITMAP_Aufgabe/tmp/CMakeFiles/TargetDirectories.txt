@@ -1,0 +1,8 @@
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/database.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/BITMAP_Aufgabe.Debug+ITSboard.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/BITMAP_Aufgabe.Debug+ITSboard-build.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/BITMAP_Aufgabe.Debug+ITSboard-configure.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/BITMAP_Aufgabe.Debug+ITSboard-executes.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/BITMAP_Aufgabe.Debug+ITSboard-database.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/edit_cache.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/rebuild_cache.dir

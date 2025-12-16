@@ -1,0 +1,11 @@
+# Target labels
+ BITMAP_Aufgabe.Debug+ITSboard
+# Source files and their labels
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/BITMAP_Aufgabe.Debug+ITSboard-database
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/CMakeFiles/BITMAP_Aufgabe.Debug+ITSboard-database.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/BITMAP_Aufgabe.Debug+ITSboard/src/BITMAP_Aufgabe.Debug+ITSboard-stamp/BITMAP_Aufgabe.Debug+ITSboard-database.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/BITMAP_Aufgabe.Debug+ITSboard/src/BITMAP_Aufgabe.Debug+ITSboard-stamp/BITMAP_Aufgabe.Debug+ITSboard-configure.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/BITMAP_Aufgabe.Debug+ITSboard/src/BITMAP_Aufgabe.Debug+ITSboard-stamp/BITMAP_Aufgabe.Debug+ITSboard-patch.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/BITMAP_Aufgabe.Debug+ITSboard/src/BITMAP_Aufgabe.Debug+ITSboard-stamp/BITMAP_Aufgabe.Debug+ITSboard-update.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/BITMAP_Aufgabe.Debug+ITSboard/src/BITMAP_Aufgabe.Debug+ITSboard-stamp/BITMAP_Aufgabe.Debug+ITSboard-download.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/BITMAP_Aufgabe/tmp/BITMAP_Aufgabe.Debug+ITSboard/src/BITMAP_Aufgabe.Debug+ITSboard-stamp/BITMAP_Aufgabe.Debug+ITSboard-mkdir.rule

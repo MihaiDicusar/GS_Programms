@@ -1,0 +1,7 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=c:\\TI_Labor\\gitProjekte\\ITS-BRD-VSC\\Programs\\BITMAP_Aufgabe\\out\\BITMAP_Aufgabe\\ITSboard\\Debug"
+    ],
+    "debug.hideSlowPreLaunchWarning": true,
+    "debug.showInStatusBar": "never"
+}
