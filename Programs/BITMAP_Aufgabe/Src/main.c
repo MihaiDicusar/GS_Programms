@@ -58,6 +58,12 @@ int main(void) {
 		fillPallete(infoHeader.biClrUsed, infoHeader.biBitCount);
 		getPalette(palette);
 
+		if (infoHeader.biWidth > 2400 || infoHeader.biHeight > 1600)
+		{
+			ERR_HANDLER(infoHeader.biWidth > 2400 || infoHeader.biHeight > 1600, "basisChecks: image too wide or tall.");
+			continue;
+		}
+
 		//for uncompressed images
 		if(infoHeader.biCompression == 0)
 		{
