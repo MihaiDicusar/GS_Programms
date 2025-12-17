@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  Franz Korf
-  * @brief   Kleines Testprogramm fuer neu erstelle Fonts.
+  * @author  Mihai Dicusar
+  * @brief   This program reads a BMP file and draws it on the display.
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
@@ -26,6 +26,9 @@
 #include <stdio.h>
 #include "draw.h"
 
+#define COMPRESSED_FORMAT	1
+#define UNCOMPRESSED_FORMAT 0
+#define CORRECT_SIGNATURE	19778
 
 int main(void) {
 	initITSboard();    // Initialisierung des ITS Boards
@@ -58,19 +61,37 @@ int main(void) {
 		fillPallete(infoHeader.biClrUsed, infoHeader.biBitCount);
 		getPalette(palette);
 
-		if (infoHeader.biWidth > 2400 || infoHeader.biHeight > 1600)
+		//check for wrong BMP signature
+		if (fileHeader.bfType != CORRECT_SIGNATURE)
 		{
-			ERR_HANDLER(infoHeader.biWidth > 2400 || infoHeader.biHeight > 1600, "basisChecks: image too wide or tall.");
+			ERR_HANDLER(fileHeader.bfType != CORRECT_SIGNATURE,
+				"basisChecks: incorrect signature for BMP.");
+			continue;
+		}
+
+		//check for unsupported bit count
+		if (infoHeader.biBitCount != 8)
+		{
+			ERR_HANDLER(infoHeader.biBitCount != 8,
+				"basisChecks: unsupported format: must be 8-bit.");
+			continue;
+		}
+
+		//check if image width or height is too large, also if exceeds scale factor of 5
+		if (infoHeader.biWidth > MAX_ALLOWED_WIDTH || infoHeader.biHeight > MAX_ALLOWED_HEIGHT)
+		{
+			ERR_HANDLER(infoHeader.biWidth > MAX_ALLOWED_WIDTH || infoHeader.biHeight > MAX_ALLOWED_HEIGHT,
+				"basisChecks: image too wide or tall.");
 			continue;
 		}
 
 		//for uncompressed images
-		if(infoHeader.biCompression == 0)
+		if(infoHeader.biCompression == UNCOMPRESSED_FORMAT)
 		{
 			drawUncompressed(infoHeader.biHeight, infoHeader.biWidth, infoHeader.biBitCount, palette);
 		}
 		//for compressed images
-		else if (infoHeader.biCompression == 1)
+		else if (infoHeader.biCompression == COMPRESSED_FORMAT)
 		{
 			drawCompressed(infoHeader.biHeight, infoHeader.biWidth, palette);
 		}

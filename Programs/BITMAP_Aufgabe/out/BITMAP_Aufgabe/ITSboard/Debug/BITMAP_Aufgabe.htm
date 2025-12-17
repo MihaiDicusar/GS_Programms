@@ -3,9 +3,9 @@
 <title>Static Call Graph - [C:\TI_Labor\gitProjekte\ITS-BRD-VSC\Programs\BITMAP_Aufgabe\out\BITMAP_Aufgabe\ITSboard\Debug\BITMAP_Aufgabe.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image C:\TI_Labor\gitProjekte\ITS-BRD-VSC\Programs\BITMAP_Aufgabe\out\BITMAP_Aufgabe\ITSboard\Debug\BITMAP_Aufgabe.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Tue Dec 16 18:09:33 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Wed Dec 17 21:57:18 2025
 <BR><P>
-<H3>Maximum Stack Usage =       1264 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =       1232 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 main &rArr; drawCompressed &rArr; COMread &rArr; nextChar &rArr; startNextByteBurst &rArr; printError &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 <P>
@@ -1134,11 +1134,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fillPallete
 </UL>
 
-<P><STRONG><a name="[f3]"></a>drawCompressed</STRONG> (Thumb, 1432 bytes, Stack size 176 bytes, draw.o(.text.drawCompressed))
-<BR><BR>[Stack]<UL><LI>Max Depth = 672<LI>Call Chain = drawCompressed &rArr; COMread &rArr; nextChar &rArr; startNextByteBurst &rArr; printError &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[f3]"></a>drawCompressed</STRONG> (Thumb, 1956 bytes, Stack size 144 bytes, draw.o(.text.drawCompressed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 640<LI>Call Chain = drawCompressed &rArr; COMread &rArr; nextChar &rArr; startNextByteBurst &rArr; printError &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;packRGB565
-<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;unpackRGB565
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;packRGB
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;unpackRGB
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;COMread
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_WriteLine
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
@@ -1147,10 +1147,12 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f8]"></a>drawUncompressed</STRONG> (Thumb, 576 bytes, Stack size 16 bytes, draw.o(.text.drawUncompressed))
+<P><STRONG><a name="[f8]"></a>drawUncompressed</STRONG> (Thumb, 1100 bytes, Stack size 16 bytes, draw.o(.text.drawUncompressed))
 <BR><BR>[Stack]<UL><LI>Max Depth = 512<LI>Call Chain = drawUncompressed &rArr; COMread &rArr; nextChar &rArr; startNextByteBurst &rArr; printError &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;COMread
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;packRGB
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;unpackRGB
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;COMread
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUI_WriteLine
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 <LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
@@ -1250,8 +1252,8 @@ Global Symbols
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initInput
 </UL>
 
-<P><STRONG><a name="[64]"></a>main</STRONG> (Thumb, 294 bytes, Stack size 592 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 1264<LI>Call Chain = main &rArr; drawCompressed &rArr; COMread &rArr; nextChar &rArr; startNextByteBurst &rArr; printError &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[64]"></a>main</STRONG> (Thumb, 402 bytes, Stack size 592 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1232<LI>Call Chain = main &rArr; drawCompressed &rArr; COMread &rArr; nextChar &rArr; startNextByteBurst &rArr; printError &rArr; lcdPrintS &rArr; GUI_disStr &rArr; GUI_disChar &rArr; LCD_fillRectangleBW &rArr; LCD_setWindow &rArr; LCD_WriteParam &rArr; LCD_WriteParameters &rArr; SPI4W_Write_Byte &rArr; check_SPI_SR &rArr; LCDErrHandler &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawCompressed
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawUncompressed
@@ -2041,16 +2043,18 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fillPallete
 </UL>
 
-<P><STRONG><a name="[f5]"></a>unpackRGB565</STRONG> (Thumb, 120 bytes, Stack size 28 bytes, draw.o(.text.unpackRGB565))
-<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = unpackRGB565
+<P><STRONG><a name="[f5]"></a>unpackRGB</STRONG> (Thumb, 120 bytes, Stack size 28 bytes, draw.o(.text.unpackRGB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = unpackRGB
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawCompressed
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawUncompressed
 </UL>
 
-<P><STRONG><a name="[f6]"></a>packRGB565</STRONG> (Thumb, 90 bytes, Stack size 24 bytes, draw.o(.text.packRGB565))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = packRGB565
+<P><STRONG><a name="[f6]"></a>packRGB</STRONG> (Thumb, 90 bytes, Stack size 24 bytes, draw.o(.text.packRGB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = packRGB
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawCompressed
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawUncompressed
 </UL>
 
 <P><STRONG><a name="[129]"></a>_fp_digits</STRONG> (Thumb, 366 bytes, Stack size 64 bytes, printfa.o(i._fp_digits), UNUSED)

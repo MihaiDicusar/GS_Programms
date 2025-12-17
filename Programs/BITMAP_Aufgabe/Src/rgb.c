@@ -1,3 +1,11 @@
+/**
+* @file rgb.c
+* @author Mihai Dicusar
+* @date Dec 2025
+* @brief This module is used to read RGB 
+*        values from COMread and to fill the palette
+*/
+
 #include "BMP_types.h"
 #include "LCD_general.h"
 #include "errorhandler.h"
@@ -48,7 +56,7 @@ int getPalette(COLOR *outPalette)
    return EOK;
 }
 
-uint16_t combineRGB(RGBQUAD quad)
+COLOR combineRGB(RGBQUAD quad)
 {
    return ((quad.rgbRed >> RED_BITS) << RED_SHIFT) |
           ((quad.rgbGreen >> GREEN_BITS) << GREEN_SHIFT) |
