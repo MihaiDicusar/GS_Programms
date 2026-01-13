@@ -1,8 +1,9 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  Franz Korf
-  * @brief   Kleines Testprogramm fuer neu erstelle Fonts.
+  * @author  Mihai Dicusar
+  * @brief   This program initializes 1-wire bus and displays sensors' info, 
+  *			 such as Family Code, ROM and the temperature
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/

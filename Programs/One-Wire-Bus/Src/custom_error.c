@@ -1,3 +1,10 @@
+/**
+* @file custom_error.c
+* @author Mihai Dicusar
+* @date Jan 2026
+* @brief This module displays errors on screen when encountered
+*/
+
 #include "LCD_GUI.h"
 #include "lcd.h"
 #include "custom_error.h"

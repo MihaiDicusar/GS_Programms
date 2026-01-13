@@ -1,3 +1,10 @@
+/**
+* @file custom_time.c
+* @author Mihai Dicusar
+* @date Jan 2026
+* @brief This module delays time by given microseconds.
+*/
+
 #include <stdint.h>
 #include "custom_time.h"
 

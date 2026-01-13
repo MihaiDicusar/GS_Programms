@@ -1,3 +1,12 @@
+/**
+* @file onewire_functions.c
+* @author Mihai Dicusar
+* @date Jan 2026
+* @brief This module has methods for different states of
+*		 the 1-wire bus, such as idle, reset, search or 
+*		 getting the temperature
+*/
+
 #include "crc.h"
 #include "delay.h"
 #include "gpiod_manip.h"

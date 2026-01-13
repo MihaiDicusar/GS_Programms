@@ -1,10 +1,17 @@
+/**
+* @file gpiod_manip.c
+* @author Mihai Dicusar
+* @date Jan 2026
+* @brief This module manipulates PD1 and PD0 from GPIOD
+*/
+
 #include "stm32f4xx_hal.h"
 #include <stdint.h>
 #include "gpiod_manip.h"
 
 void pd1_init()
 {
-	GPIOD->OTYPER &= ~(1 << PD1_PIN);
+	GPIOD->OTYPER &= ~(1 << PD1_PIN);	//push pull mode
 	GPIOD->BSRR = (1 << PD1_PIN);
 }
 

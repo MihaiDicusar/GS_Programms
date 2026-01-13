@@ -5,6 +5,14 @@
 #include <string.h>
 #include "display_output.h"
 
+/**
+* @file display_output.c
+* @author Mihai Dicusar
+* @date Jan 2026
+* @brief This module displays the family code, the ROM
+*        and the temperature of the sensor
+*/
+
 void displayFamCode(uint8_t *rom, uint16_t y)
 {
     char buf[50];

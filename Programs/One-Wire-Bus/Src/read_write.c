@@ -1,3 +1,11 @@
+/**
+* @file read_write.c
+* @author Mihai Dicusar
+* @date Jan 2026
+* @brief This module has methods to write and read bits or bytes
+*        from sensors on 1-wire bus
+*/
+
 #include <stdint.h>
 #include "gpiod_manip.h"
 #include "custom_time.h"
@@ -45,16 +53,17 @@ uint8_t read_bit()
 
 uint8_t read_byte()
 {
-    uint8_t value = 0;
+    uint8_t byte = 0;
 
     for(int i = 0; i < BYTE_LENGTH; i++)
     {
         uint8_t bit = read_bit();
-        value >>= 1;
+        byte >>= 1;
         if(bit)
         {
-            value |= 0x80;      //convert from LSB to MSB
+            byte |= 0x80;      //convert from LSB to MSB
         }
     }
-    return value;
+    
+    return byte;
 }
