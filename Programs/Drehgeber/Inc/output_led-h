@@ -1,2 +1,0 @@
-void turn_gpiof_led_on(int pin);
-void turn_gpiof_led_off(int pin);

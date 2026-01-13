@@ -1,0 +1,11 @@
+# Target labels
+ One-Wire-Bus.Debug+ITSboard
+# Source files and their labels
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard-database
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard-database.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-database.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-configure.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-patch.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-update.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-download.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-mkdir.rule

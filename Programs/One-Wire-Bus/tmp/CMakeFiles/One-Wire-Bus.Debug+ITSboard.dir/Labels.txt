@@ -1,0 +1,16 @@
+# Target labels
+ One-Wire-Bus.Debug+ITSboard
+# Source files and their labels
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard-complete.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-build.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-configure.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-database.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-download.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-executes.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-install.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-mkdir.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-patch.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-test.rule
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/One-Wire-Bus.Debug+ITSboard/src/One-Wire-Bus.Debug+ITSboard-stamp/One-Wire-Bus.Debug+ITSboard-update.rule

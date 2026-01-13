@@ -1,0 +1,8 @@
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/database.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard-build.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard-configure.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard-executes.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/One-Wire-Bus.Debug+ITSboard-database.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/edit_cache.dir
+C:/TI_Labor/gitProjekte/ITS-BRD-VSC/Programs/One-Wire-Bus/tmp/CMakeFiles/rebuild_cache.dir
